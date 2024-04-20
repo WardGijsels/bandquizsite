@@ -1,0 +1,27 @@
+:root {
+    --my-gray01: #171717;
+    --my-gray02: #212121;
+    --my-purple01: #A91DFF;
+    --my-purple02: #F01EFF;
+    --my-purple03: #8A00FF;
+    --my-blue01: #62FFFF;
+    --my-blue02: #4100FE;
+}
+
+.navbar-background-color {
+    background-color: var(--my-gray01);
+}
+
+body {
+    background-color: var(--my-gray02);
+}
+
+.submit-button {
+    background-color: var(--my-purple03);
+    color: #fff;
+}
+
+.submit-button:hover {
+    background-color: var(--my-purple02);
+    color: #fff;
+}

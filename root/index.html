@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/css/style.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-background-color">
+    <div class="container-fluid justify-content-center align-items-center">
+      <a class="navbar-brand col-auto" href="#">
+        <img src="/img/navbarLogo.png" alt="COREQUIZ" width="277.75" height="53" class="img-fluid">
+      </a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <div class="row">
+      <div class="col-12 text-white">
+
+        <!-- Add elements to display game messages -->
+        <div id="game-messages"></div>
+        <div id="feedback-message"></div>
+        
+        <!-- Input field and button -->
+        <div class="input-group mt-3">
+          <input type="text" id="user-input" class="form-control" placeholder="Enter your guess...">
+          <button id="submit-button" class="btn submit-button">Submit</button>
+        </div>
+
+        <div id="play-again-container"></div>
+
+      </div>
+    </div>
+  </main>
+
+
+
+
+
+  <script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/js/bands.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+
+</html>
