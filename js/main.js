@@ -25,6 +25,12 @@ function checkGuess(userGuess, correctAnswer) {
     // Convert userGuess to lowercase if it's not null
     const normalizedUserGuess = userGuess.toLowerCase();
 
+    // display band image and name
+    const bandImage = document.querySelector('#bandImage');
+    const bandName = document.querySelector('#bandName');
+    bandImage.src = `/img/bands/${correctAnswer.img}`;
+    bandName.textContent = correctAnswer.name;
+
     if (normalizedUserGuess === correctAnswer.name.toLowerCase()) {
         // Update feedback message on the webpage
         document.querySelector("#feedback-message").textContent = "Correct! You guessed the band correctly!";

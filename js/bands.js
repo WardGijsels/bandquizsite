@@ -44,6 +44,24 @@ function getAllBands () {
             img: "BMTH.png",
             nationality: "gb",
             mostpopularsong: "Choke"
+        }, 
+        {
+            name: "SeeYouSpaceCowboy",
+            groupsize : 5,
+            genre: "Sasscore",
+            debutreleaseyear: 2019,
+            img: "SYSC.png",
+            nationality: "us",
+            mostpopularsong: "bloodstainedeyes"
+        },  
+        {
+            name: "While She Sleeps",
+            groupsize: 5,
+            genre: "Metalcore",
+            debutreleaseyear: 2010,
+            img: "WSS.png",
+            nationality: "gb",
+            mostpopularsong: "ANTI-SOCIAL"
         }
     ]
 }
