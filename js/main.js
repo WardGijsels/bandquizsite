@@ -30,6 +30,15 @@ function checkGuess(userGuess, correctAnswer) {
         document.querySelector("#feedback-message").textContent = "Correct! You guessed the band correctly!";
         // Increment score
         score++;
+        
+        // Update score
+        console.log(score);
+        const displayScore = document.querySelector("#score");
+        displayScore.textContent = score;
+
+        const scoreProgressBar = document.querySelector("#scoreprogressbar");
+        scoreProgressBar.style = `width: ${score}%;`
+
         return true;
     } else {
         // Update feedback message on the webpage
@@ -111,7 +120,6 @@ function askToPlayAgain() {
         document.querySelector("#feedback-message").textContent = "";
 
         // Start the game again
-        console.log(score);
         playGame();
     });
 
