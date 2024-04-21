@@ -65,11 +65,13 @@ function playGame() {
 
     // Display band information to the user
     const groupSizeElement = document.createElement('p');
-    groupSizeElement.textContent = `Group Size: ${correctAnswer.groupsize}`;
+    groupSizeElement.innerHTML = `Group Size: <br>${correctAnswer.groupsize}`;
+    groupSizeElement.classList.add("group-message", "col-6");
     gameMessagesElement.appendChild(groupSizeElement);
 
     const genreElement = document.createElement('p');
-    genreElement.textContent = `Genre: ${correctAnswer.genre}`;
+    genreElement.innerHTML = `Genre: <br>${correctAnswer.genre}`;
+    genreElement.classList.add("genre-message","col-6");
     gameMessagesElement.appendChild(genreElement);
 
     const debutReleaseYearElement = document.createElement('p');
@@ -86,7 +88,7 @@ function playGame() {
 
     // Create a text element for "Nationality"
     const nationalityText = document.createElement('p');
-    nationalityText.textContent = "Nationality: ";
+    nationalityText.innerHTML = "Nationality:<br>";
     nationalityContainer.appendChild(nationalityText);
 
     // Create an image element for the nationality flag
