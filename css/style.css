@@ -25,3 +25,14 @@ body {
     background-color: var(--my-purple02);
     color: #fff;
 }
+
+.game-messages {
+    color: #fff;
+}
+
+.game-messages p {
+    border: 1px solid #ccc;
+    background-color: var(--my-purple02);
+    padding: 1.05em 16px;
+    border-radius: 16px;
+}

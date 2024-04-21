@@ -61,6 +61,7 @@ function playGame() {
     // Clear any previous band information
     const gameMessagesElement = document.querySelector("#game-messages");
     gameMessagesElement.innerHTML = '';
+    gameMessagesElement.classList.add("game-messages");
 
     // Display band information to the user
     const groupSizeElement = document.createElement('p');
@@ -134,9 +135,9 @@ function askToPlayAgain() {
     });
 
     // Append play again button to the page
-    const playAgainContainer = document.querySelector("#play-again-container");
-    playAgainContainer.innerHTML = '';
-    playAgainContainer.appendChild(playAgainButton);
+    // const playAgainContainer = document.querySelector("#play-again-container");
+    // playAgainContainer.innerHTML = '';
+    // playAgainContainer.appendChild(playAgainButton);
 }
 
 // Start the game
