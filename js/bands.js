@@ -3,7 +3,7 @@ function getAllBands () {
         {
             name: "Beartooth",
             groupsize: 5,
-            genre: "metalcore",
+            genre: "Metalcore",
             debutreleaseyear: 2014,
             img: "Beartooth.png",
             nationality: "us",
@@ -62,6 +62,33 @@ function getAllBands () {
             img: "WSS.png",
             nationality: "gb",
             mostpopularsong: "ANTI-SOCIAL"
+        }, 
+        {
+            name: "Alpha Wolf",
+            groupsize: 5,
+            genre: "nu Metalcore",
+            debutreleaseyear: 2017,
+            img: "AlphaWolf.png",
+            nationality: "au",
+            mostpopularsong: "Akudama"
+        }, 
+        {
+            name: "Knocked Loose",
+            groupsize: 5,
+            genre: "Hardcore",
+            debutreleaseyear: 2016,
+            img: "KnockedLoose.png",
+            nationality: "us",
+            mostpopularsong: "Counting Worms"
+        },
+        {
+            name: "Lorna Shore",
+            groupsize: 5,
+            genre: "Deathcore",
+            debutreleaseyear: 2015,
+            img: "LornaShore.png",
+            nationality: "us",
+            mostpopularsong: "To the Hellfire"
         }
     ]
 }
