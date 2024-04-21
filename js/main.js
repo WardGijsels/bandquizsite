@@ -118,9 +118,13 @@ function playGame() {
 // Function to ask the user if they want to play again
 function askToPlayAgain() {
     // Display play again button
-    const playAgainButton = document.createElement('button');
-    playAgainButton.textContent = "Play Again";
-    playAgainButton.classList.add('btn', 'btn-primary');
+
+    // const playAgainButton = document.createElement('button');
+    // playAgainButton.textContent = "Play Again";
+    // playAgainButton.classList.add('btn', 'submit-button');
+    playAgainButton = document.querySelector("#playagainbutton");
+    playAgainButton.removeAttribute("disabled");
+    playAgainButton.removeAttribute("data-bs-toggle");
     playAgainButton.addEventListener('click', function() {
         // Clear feedback message
         document.querySelector("#feedback-message").textContent = "";

@@ -41,7 +41,7 @@ function getAllBands () {
             groupsize: 6,
             genre: "Metalcore",
             debutreleaseyear: 2009,
-            img: "BMTH.png",
+            img: "BuryTomorrow.png",
             nationality: "gb",
             mostpopularsong: "Choke"
         }, 
