@@ -67,23 +67,22 @@ body {
   color: var(--my-purple02);
 }
 
-@media (max-width: 979px) {
-    .mobile-image {
-      display: block;
-    }
-  
-    .desktop-image {
-      display: none; 
-    }
+@media (max-width: 993px) {
+  .mobile-image {
+    display: block;
   }
-  
-  @media (min-width: 978px) {
-    .mobile-image {
-      display: none; 
-    }
-  
-    .desktop-image {
-      display: block; 
-    }
+
+  .desktop-image {
+    display: none;
   }
-  
+}
+
+@media (min-width: 994px) {
+  .mobile-image {
+    display: none;
+  }
+
+  .desktop-image {
+    display: block;
+  }
+}
