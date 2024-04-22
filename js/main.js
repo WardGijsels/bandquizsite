@@ -31,6 +31,11 @@ function checkGuess(userGuess, correctAnswer) {
     bandImage.src = `/img/bands/${correctAnswer.img}`;
     bandName.textContent = correctAnswer.name;
 
+    const bandImageMobile = document.querySelector('#bandImageMobile');
+    const bandNameMobile = document.querySelector('#bandNameMobile');
+    bandImageMobile.src = `/img/bands/${correctAnswer.img}`;
+    bandNameMobile.textContent = correctAnswer.name;
+
     if (normalizedUserGuess === correctAnswer.name.toLowerCase()) {
         // Update feedback message on the webpage
         document.querySelector("#feedback-message").textContent = "Correct! You guessed the band correctly!";

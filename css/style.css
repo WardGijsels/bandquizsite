@@ -1,50 +1,51 @@
 :root {
-    --my-gray01: #171717;
-    --my-gray02: #212121;
-    --my-gray03: #676767;
-    --my-purple01: #A91DFF;
-    --my-purple02: #F01EFF;
-    --my-purple03: #8A00FF;
-    --my-blue01: #62FFFF;
-    --my-blue02: #4100FE;
+  --my-gray01: #171717;
+  --my-gray02: #212121;
+  --my-gray03: #676767;
+  --my-purple01: #a91dff;
+  --my-purple02: #f01eff;
+  --my-purple03: #8a00ff;
+  --my-blue01: #62ffff;
+  --my-blue02: #4100fe;
 }
 
 .navbar-background-color {
-    background-color: var(--my-gray01);
+  background-color: var(--my-gray01);
 }
 
 body {
-    background-color: var(--my-gray02);
+  background-color: var(--my-gray02);
 }
 
 .submit-button {
-    background-color: var(--my-purple03);
-    color: #fff;
+  background-color: var(--my-purple03);
+  color: #fff;
 }
 
 .submit-button:hover {
-    background-color: var(--my-purple02);
-    color: #fff;
+  background-color: var(--my-purple02);
+  color: #fff;
 }
 
 .game-messages {
-    color: #fff;
+  color: #fff;
 }
 
-.game-messages p, .game-messages div {
-    border: 1px solid #ccc;
-    background-color: var(--my-gray03);
-    padding: 1.05em 16px;
-    border-radius: 16px;
-    font-size: 1.5cap;
-    text-align: center;
-    justify-content: center;
+.game-messages p,
+.game-messages div {
+  border: 1px solid #ccc;
+  background-color: var(--my-gray03);
+  padding: 1.05em 16px;
+  border-radius: 16px;
+  font-size: 1.5cap;
+  text-align: center;
+  justify-content: center;
 }
 
 .game-messages div p {
-    border: none;
-    background-color: transparent;
-    padding: 0;
+  border: none;
+  background-color: transparent;
+  padding: 0;
 }
 
 .group-message {
@@ -54,14 +55,35 @@ body {
 }
 
 .home-footer {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 .home-footer div ul li a {
-    color: var(--my-purple01);
-    text-decoration: none;
+  color: var(--my-purple01);
+  text-decoration: none;
 }
 
 .home-footer div ul li a:hover {
-    color: var(--my-purple02);
+  color: var(--my-purple02);
 }
+
+@media (max-width: 979px) {
+    .mobile-image {
+      display: block;
+    }
+  
+    .desktop-image {
+      display: none; 
+    }
+  }
+  
+  @media (min-width: 978px) {
+    .mobile-image {
+      display: none; 
+    }
+  
+    .desktop-image {
+      display: block; 
+    }
+  }
+  
