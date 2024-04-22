@@ -47,10 +47,21 @@ body {
     padding: 0;
 }
 
-
-
 .group-message {
 }
 
 .genre-message {
+}
+
+.home-footer {
+    color: #fff;
+    text-decoration: none;
+}
+.home-footer div ul li a {
+    color: var(--my-purple01);
+    text-decoration: none;
+}
+
+.home-footer div ul li a:hover {
+    color: var(--my-purple02);
 }
