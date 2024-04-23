@@ -4,12 +4,12 @@ const bands = getAllBands();
 function displayBandCards() {
     bands.forEach(band => {
         const div = document.createElement('div');
-        div.classList.add('card', 'text-bg-dark', 'col-4');
+        div.classList.add('card', 'text-bg-dark', 'col-lg-4', 'col-md-6','col-xs-12', 'band-card');
 
         const img = document.createElement('img');
         img.src = `/img/bands/${band.img}`;
         img.classList.add('card-img');
-        img.alt = '';
+        img.alt = `image of ${band.name}`;
         img.height = 400;
         img.id = 'bandImage';
 
