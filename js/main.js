@@ -149,3 +149,9 @@ function askToPlayAgain() {
 
 // Start the game
 playGame();
+
+const lightmode = document.querySelector('.light-mode-button');
+const body = document.querySelector('#documentBody');
+lightmode.addEventListener("click", function() {
+    body.classList.add("light-mode");
+});

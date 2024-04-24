@@ -7,6 +7,9 @@
   --my-purple03: #8a00ff;
   --my-blue01: #62ffff;
   --my-blue02: #4100fe;
+  --my-white01: #fff;
+  --my-white002: #FFFFF0;
+  --my-vanilla01: #F3E5AB;
 }
 
 .navbar-background-color {
@@ -17,9 +20,22 @@ body {
   background-color: var(--my-gray02);
 }
 
+.light-mode {
+  background-color: var(--my-white02);
+}
+
+.light-mode .navbar-background-color {
+  background-color: var(--my-vanilla01);
+}
+
+.light-mode-button {
+  background-color: var(--my-white01);
+  color: #000000;
+}
+
 .submit-button {
   background-color: var(--my-purple03);
-  color: #fff;
+  color: var(--my-white01);
 }
 
 .submit-button:hover {
