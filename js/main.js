@@ -152,7 +152,7 @@ playGame();
 
 const lightmode = document.querySelector('.light-mode-button');
 const body = document.querySelector('#documentBody');
-let lightmodeactivated = 0;
+let lightmodeactivated = 1;
 lightmode.addEventListener("click", function () {
     if (lightmodeactivated === 0) {
         lightmodeactivated += 1;

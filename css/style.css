@@ -29,8 +29,23 @@ body {
   background-color: var(--my-purple04);
 }
 
+.light-mode .light-mode-button {
+  background-color: var(--my-purple04);
+  color: var(--my-white01);
+}
+
+.light-mode .submit-button[disabled][data-bs-toggle="button"] {
+  background-color: var(--my-gray03);
+  color: var(--my-white01);
+}
+
+
 .light-mode-button {
   background-color: var(--my-white01);
+  color: #000000;
+}
+
+.light-mode .text {
   color: #000000;
 }
 
