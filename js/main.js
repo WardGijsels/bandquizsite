@@ -41,7 +41,7 @@ function checkGuess(userGuess, correctAnswer) {
         document.querySelector("#feedback-message").textContent = "Correct! You guessed the band correctly!";
         // Increment score
         score++;
-        
+
         // Update score
         console.log(score);
         const displayScore = document.querySelector("#score");
@@ -76,7 +76,7 @@ function playGame() {
 
     const genreElement = document.createElement('p');
     genreElement.innerHTML = `Genre: <br>${correctAnswer.genre}`;
-    genreElement.classList.add("genre-message","col-6");
+    genreElement.classList.add("genre-message", "col-6");
     gameMessagesElement.appendChild(genreElement);
 
     const debutReleaseYearElement = document.createElement('p');
@@ -110,7 +110,7 @@ function playGame() {
     const submitButton = document.querySelector("#submit-button");
 
     // Add event listener for click event on submit button
-    submitButton.addEventListener("click", function() {
+    submitButton.addEventListener("click", function () {
         // Get the user's input from the input field
         const userInput = document.querySelector("#user-input").value;
 
@@ -133,7 +133,7 @@ function askToPlayAgain() {
     playAgainButton = document.querySelector("#playagainbutton");
     playAgainButton.removeAttribute("disabled");
     playAgainButton.removeAttribute("data-bs-toggle");
-    playAgainButton.addEventListener('click', function() {
+    playAgainButton.addEventListener('click', function () {
         // Clear feedback message
         document.querySelector("#feedback-message").textContent = "";
 
@@ -152,6 +152,14 @@ playGame();
 
 const lightmode = document.querySelector('.light-mode-button');
 const body = document.querySelector('#documentBody');
-lightmode.addEventListener("click", function() {
-    body.classList.add("light-mode");
+let lightmodeactivated = 0;
+lightmode.addEventListener("click", function () {
+    if (lightmodeactivated === 0) {
+        lightmodeactivated += 1;
+        body.classList.remove("light-mode");
+    }
+    else {
+        lightmodeactivated -= 1;
+        body.classList.add("light-mode");
+    }
 });
