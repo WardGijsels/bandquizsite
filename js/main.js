@@ -150,16 +150,32 @@ function askToPlayAgain() {
 // Start the game
 playGame();
 
+// Light mode
 const lightmode = document.querySelector('.light-mode-button');
 const body = document.querySelector('#documentBody');
-let lightmodeactivated = 1;
+
+let lightmodeactivated;
+if (localStorage.getItem('lightmodeactivated') === '1') {
+    lightmodeactivated = 1;
+} else {
+    lightmodeactivated = 0;
+}
+updateTheme();
+
 lightmode.addEventListener("click", function () {
     if (lightmodeactivated === 0) {
-        lightmodeactivated += 1;
+        lightmodeactivated = 1;
+    } else {
+        lightmodeactivated = 0;
+    }
+    updateTheme();
+    localStorage.setItem('lightmodeactivated', lightmodeactivated.toString());
+});
+
+function updateTheme() {
+    if (lightmodeactivated === 0) {
+        body.classList.add("light-mode");
+    } else {
         body.classList.remove("light-mode");
     }
-    else {
-        lightmodeactivated -= 1;
-        body.classList.add("light-mode");
-    }
-});
+}
