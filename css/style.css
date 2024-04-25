@@ -5,8 +5,12 @@
   --my-purple01: #a91dff;
   --my-purple02: #f01eff;
   --my-purple03: #8a00ff;
+  --my-purple04: #4a0685;
   --my-blue01: #62ffff;
   --my-blue02: #4100fe;
+  --my-white01: #fff;
+  --my-white002: #e4e4d4;
+  --my-vanilla01: #F3E5AB;
 }
 
 .navbar-background-color {
@@ -17,9 +21,41 @@ body {
   background-color: var(--my-gray02);
 }
 
+.light-mode {
+  background-color: var(--my-white02);
+}
+
+.light-mode .navbar-background-color {
+  background-color: var(--my-purple04);
+}
+
+.light-mode .light-mode-button {
+  background-color: var(--my-purple04);
+  color: var(--my-white01);
+}
+
+.light-mode .submit-button[disabled][data-bs-toggle="button"] {
+  background-color: var(--my-gray03);
+  color: var(--my-white01);
+}
+
+
+.light-mode-button {
+  background-color: var(--my-white01);
+  color: #000000;
+}
+
+.light-mode-button:hover {
+  background-color: var(--my-purple02);
+}
+
+.light-mode .text {
+  color: #000000;
+}
+
 .submit-button {
   background-color: var(--my-purple03);
-  color: #fff;
+  color: var(--my-white01);
 }
 
 .submit-button:hover {
