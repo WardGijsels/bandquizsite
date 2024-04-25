@@ -32,3 +32,18 @@ function displayBandCards() {
 addEventListener('DOMContentLoaded', () => {
     displayBandCards();
 });
+
+// Light Mode
+const lightmode = document.querySelector('.light-mode-button');
+const body = document.querySelector('#documentBody');
+let lightmodeactivated = 1;
+lightmode.addEventListener("click", function () {
+    if (lightmodeactivated === 0) {
+        lightmodeactivated += 1;
+        body.classList.remove("light-mode");
+    }
+    else {
+        lightmodeactivated -= 1;
+        body.classList.add("light-mode");
+    }
+});

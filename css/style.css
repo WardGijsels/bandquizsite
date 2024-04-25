@@ -45,6 +45,10 @@ body {
   color: #000000;
 }
 
+.light-mode-button:hover {
+  background-color: var(--my-purple02);
+}
+
 .light-mode .text {
   color: #000000;
 }
