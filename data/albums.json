@@ -1,0 +1,170 @@
+{
+  "albums": [
+    {
+      "title": "Sempiternal",
+      "artist": "Bring Me The Horizon",
+      "genre": "Metalcore",
+      "releasedate": {
+        "year": 2013,
+        "month": 3,
+        "day": 29
+      },
+      "image": "sempiternal.png",
+      "spotify": "https://open.spotify.com/embed/album/6IYPmM3xsOPL2XPSvf1ZAz?utm_source=generator",
+      "tracks": [
+        {
+          "title": "Can You Feel My Heart",
+          "duration": "3:48"
+        },
+        {
+          "title": "The House of Wolves",
+          "duration": "3:25"
+        },
+        {
+          "title": "Empire (Let Them Sing)",
+          "duration": "3:45"
+        },
+        {
+          "title": "Sleepwalking",
+          "duration": "3:50"
+        },
+        {
+          "title": "Go to Hell, for Heaven's Sake",
+          "duration": "4:03"
+        },
+        {
+          "title": "Shadow Moses",
+          "duration": "4:03"
+        },
+        {
+          "title": "And the Snakes Start to Sing",
+          "duration": "5:01"
+        },
+        {
+          "title": "Seen It All Before",
+          "duration": "4:07"
+        },
+        {
+          "title": "Antivist",
+          "duration": "3:13"
+        },
+        {
+          "title": "Crooked Young",
+          "duration": "3:34"
+        },
+        {
+          "title": "Hospital for Souls",
+          "duration": "6:46"
+        }
+      ]
+    },
+    {
+        "title": "That's The Spirit",
+        "artist": "Bring Me The Horizon",
+        "genre": "Hard Rock",
+        "releasedate": {
+          "year": 2015,
+          "month": 9,
+          "day": 11
+        },
+        "image": "thatsthespirit.png",
+        "spotify": "https://open.spotify.com/embed/album/7FqHuAvmREiIwVXVpZ9ooP?utm_source=generator",
+        "tracks": [
+          {
+            "title": "Doomed",
+            "duration": "4:34"
+          },
+          {
+            "title": "Happy Song",
+            "duration": "3:59"
+          },
+          {
+            "title": "Throne",
+            "duration": "3:11"
+          },
+          {
+            "title": "True Friends",
+            "duration": "3:52"
+          },
+          {
+            "title": "Follow You",
+            "duration": "3:51"
+          },
+          {
+            "title": "What You Need",
+            "duration": "4:12"
+          },
+          {
+            "title": "Avalanche",
+            "duration": "4:22"
+          },
+          {
+            "title": "Run",
+            "duration": "3:42"
+          },
+          {
+            "title": "Drown",
+            "duration": "3:42"
+          },
+          {
+            "title": "Blasphemy",
+            "duration": "4:35"
+          },
+          {
+            "title": "Oh No",
+            "duration": "5:01"
+          }
+        ]
+    },
+    {
+        "title": "POST HUMAN: SURVIVAL HORROR",
+        "artist": "Bring Me The Horizon",
+        "genre": "Metalcore",
+        "releasedate": {
+          "year": 2020,
+          "month": 10,
+          "day": 30
+        },
+        "image": "posthumansurvivalhorror.png",
+        "spotify": "https://open.spotify.com/embed/album/0e1WaSNDZnoPixaxDNdWo4?utm_source=generator",
+        "tracks": [
+          {
+            "title": "Dear Diary,",
+            "duration": "2:44"
+          },
+          {
+            "title": "Parasite Eve",
+            "duration": "4:51"
+          },
+          {
+            "title": "Teardrops",
+            "duration": "3:35"
+          },
+          {
+            "title": "Obey (with YUNGBLUD)",
+            "duration": "3:40"
+          },
+          {
+            "title": "Itch For The Cure (When Will We Be Free?)",
+            "duration": "1:26"
+          },
+          {
+            "title": "KINGLSAYER (feat. BABYMETAL)",
+            "duration": "3:40"
+          },
+          {
+            "title": "1x1 (feat. Nova Twins)",
+            "duration": "3:29"
+          },
+          {
+            "title": "Ludens",
+            "duration": "4:40"
+          },
+          {
+            "title": "One Day The Only Butterflies Left Will Be In Your Chest As You March Towards Your Death (feat. Amy Lee",
+            "duration": "4:03"
+          }
+        ]
+    }
+  ]
+}
