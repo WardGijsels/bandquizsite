@@ -59,112 +59,398 @@
       ]
     },
     {
-        "title": "That's The Spirit",
-        "artist": "Bring Me The Horizon",
-        "genre": "Hard Rock",
-        "releasedate": {
-          "year": 2015,
-          "month": 9,
-          "day": 11
+      "title": "That's The Spirit",
+      "artist": "Bring Me The Horizon",
+      "genre": "Hard Rock",
+      "releasedate": {
+        "year": 2015,
+        "month": 9,
+        "day": 11
+      },
+      "image": "thatsthespirit.png",
+      "spotify": "https://open.spotify.com/embed/album/7FqHuAvmREiIwVXVpZ9ooP?utm_source=generator",
+      "tracks": [
+        {
+          "title": "Doomed",
+          "duration": "4:34"
         },
-        "image": "thatsthespirit.png",
-        "spotify": "https://open.spotify.com/embed/album/7FqHuAvmREiIwVXVpZ9ooP?utm_source=generator",
-        "tracks": [
-          {
-            "title": "Doomed",
-            "duration": "4:34"
-          },
-          {
-            "title": "Happy Song",
-            "duration": "3:59"
-          },
-          {
-            "title": "Throne",
-            "duration": "3:11"
-          },
-          {
-            "title": "True Friends",
-            "duration": "3:52"
-          },
-          {
-            "title": "Follow You",
-            "duration": "3:51"
-          },
-          {
-            "title": "What You Need",
-            "duration": "4:12"
-          },
-          {
-            "title": "Avalanche",
-            "duration": "4:22"
-          },
-          {
-            "title": "Run",
-            "duration": "3:42"
-          },
-          {
-            "title": "Drown",
-            "duration": "3:42"
-          },
-          {
-            "title": "Blasphemy",
-            "duration": "4:35"
-          },
-          {
-            "title": "Oh No",
-            "duration": "5:01"
-          }
-        ]
+        {
+          "title": "Happy Song",
+          "duration": "3:59"
+        },
+        {
+          "title": "Throne",
+          "duration": "3:11"
+        },
+        {
+          "title": "True Friends",
+          "duration": "3:52"
+        },
+        {
+          "title": "Follow You",
+          "duration": "3:51"
+        },
+        {
+          "title": "What You Need",
+          "duration": "4:12"
+        },
+        {
+          "title": "Avalanche",
+          "duration": "4:22"
+        },
+        {
+          "title": "Run",
+          "duration": "3:42"
+        },
+        {
+          "title": "Drown",
+          "duration": "3:42"
+        },
+        {
+          "title": "Blasphemy",
+          "duration": "4:35"
+        },
+        {
+          "title": "Oh No",
+          "duration": "5:01"
+        }
+      ]
     },
     {
-        "title": "POST HUMAN: SURVIVAL HORROR",
-        "artist": "Bring Me The Horizon",
-        "genre": "Metalcore",
-        "releasedate": {
-          "year": 2020,
-          "month": 10,
-          "day": 30
+      "title": "POST HUMAN: SURVIVAL HORROR",
+      "artist": "Bring Me The Horizon",
+      "genre": "Metalcore",
+      "releasedate": {
+        "year": 2020,
+        "month": 10,
+        "day": 30
+      },
+      "image": "posthumansurvivalhorror.png",
+      "spotify": "https://open.spotify.com/embed/album/0e1WaSNDZnoPixaxDNdWo4?utm_source=generator",
+      "tracks": [
+        {
+          "title": "Dear Diary,",
+          "duration": "2:44"
         },
-        "image": "posthumansurvivalhorror.png",
-        "spotify": "https://open.spotify.com/embed/album/0e1WaSNDZnoPixaxDNdWo4?utm_source=generator",
-        "tracks": [
-          {
-            "title": "Dear Diary,",
-            "duration": "2:44"
-          },
-          {
-            "title": "Parasite Eve",
-            "duration": "4:51"
-          },
-          {
-            "title": "Teardrops",
-            "duration": "3:35"
-          },
-          {
-            "title": "Obey (with YUNGBLUD)",
-            "duration": "3:40"
-          },
-          {
-            "title": "Itch For The Cure (When Will We Be Free?)",
-            "duration": "1:26"
-          },
-          {
-            "title": "KINGLSAYER (feat. BABYMETAL)",
-            "duration": "3:40"
-          },
-          {
-            "title": "1x1 (feat. Nova Twins)",
-            "duration": "3:29"
-          },
-          {
-            "title": "Ludens",
-            "duration": "4:40"
-          },
-          {
-            "title": "One Day The Only Butterflies Left Will Be In Your Chest As You March Towards Your Death (feat. Amy Lee",
-            "duration": "4:03"
-          }
-        ]
+        {
+          "title": "Parasite Eve",
+          "duration": "4:51"
+        },
+        {
+          "title": "Teardrops",
+          "duration": "3:35"
+        },
+        {
+          "title": "Obey (with YUNGBLUD)",
+          "duration": "3:40"
+        },
+        {
+          "title": "Itch For The Cure (When Will We Be Free?)",
+          "duration": "1:26"
+        },
+        {
+          "title": "KINGLSAYER (feat. BABYMETAL)",
+          "duration": "3:40"
+        },
+        {
+          "title": "1x1 (feat. Nova Twins)",
+          "duration": "3:29"
+        },
+        {
+          "title": "Ludens",
+          "duration": "4:40"
+        },
+        {
+          "title": "One Day The Only Butterflies Left Will Be In Your Chest As You March Towards Your Death (feat. Amy Lee",
+          "duration": "4:03"
+        }
+      ]
+    },
+    {
+      "title": "amo",
+      "artist": "Bring Me The Horizon",
+      "genre": "Pop",
+      "releasedate": {
+        "year": 2019,
+        "month": 1,
+        "day": 25
+      },
+      "image": "amo.png",
+      "spotify": "https://open.spotify.com/embed/album/04mkS7FooK8fRbB626T9NR?utm_source=generator",
+      "tracks": [
+        {
+          "title": "i apologise if you feel something",
+          "duration": "2:19"
+        },
+        {
+          "title": "MANTRA",
+          "duration": "3:53"
+        },
+        {
+          "title": "nihilist blues (feat. Grimes)",
+          "duration": "5:25"
+        },
+        {
+          "title": "in the dark",
+          "duration": "4:31"
+        },
+        {
+          "title": "wonderful life (feat. Dani Filth)",
+          "duration": "4:34"
+        },
+        {
+          "title": "ouch",
+          "duration": "3:40"
+        },
+        {
+          "title": "medicine",
+          "duration": "3:47"
+        },
+        {
+          "title": "sugar honey ice & tea",
+          "duration": "4:21"
+        },
+        {
+          "title": "why you gotta kick me when i'm down?",
+          "duration": "4:28"
+        },
+        {
+          "title": "fresh bruises",
+          "duration": "3:18"
+        },
+        {
+          "title": "mother tongue",
+          "duration": "3:37"
+        },
+        {
+          "title": "heavy metal (feat. Rahzel)",
+          "duration": "4:00"
+        },
+        {
+          "title": "i don't know what to say",
+          "duration": "5:52"
+        }
+      ]
+    },
+    {
+      "title": "Music to listen to~dance to~blaze to~pray to~feed to~sleep to~talk to~grind to~trip to~breathe to~help to~hurt to~scroll to~roll to~love to~hate to~learn Too~plot to~play to~be to~feel to~breed to~sweat to~dream to~hide to~live to~die to~GO TO",
+      "artist": "Bring Me The Horizon",
+      "genre": "Experimental",
+      "releasedate": {
+        "year": 2019,
+        "month": 12,
+        "day": 27
+      },
+      "image": "musictolistento.png",
+      "spotify": "https://open.spotify.com/embed/album/6yC6aLzX5knhWpKDidwxft?utm_source=generator",
+      "tracks": [
+        {
+          "title": "Steal Something.",
+          "duration": "10:11"
+        },
+        {
+          "title": "Candy Truck / You Expected: LAB Your Result: Green",
+          "duration": "7:15"
+        },
+        {
+          "title": "A Devastating Liberation",
+          "duration": "4:40"
+        },
+        {
+          "title": "¿ (feat. Halsey)",
+          "duration": "5:13"
+        },
+        {
+          "title": "Underground Big {HEADFULOFHYENA} (feat. Bexey & Lotus Eater)",
+          "duration": "24:05"
+        },
+        {
+          "title": "\"like seeing spiders running riot on your lover's grave\"",
+          "duration": "6:38"
+        },
+        {
+          "title": "Dead Dolphin Sounds 'aid brain growth in unborn child' Virtual Therapy / Nature Healing 2 Hours (feat. Toriel)",
+          "duration": "10:09"
+        },
+        {
+          "title": "±ªþ³§",
+          "duration": "7:18"
+        }
+      ]
+    },
+    {
+      "title": "There Is A Hell Believe Me I've Seen It. There Is A Heaven Let's Keep It A Secret",
+      "artist": "Bring Me The Horizon",
+      "genre": "Metalcore",
+      "releasedate": {
+        "year": 2010,
+        "month": 10,
+        "day": 4
+      },
+      "image": "thereisahell.png",
+      "spotify": "https://open.spotify.com/embed/album/57vsBm45xiin2upj9Iq5XA?utm_source=generator",
+      "tracks": [
+        {
+          "title": "Crucify Me (feat. Lights)",
+          "duration": "6:19"
+        },
+        {
+          "title": "Anthem",
+          "duration": "4:49"
+        },
+        {
+          "title": "It Never Ends",
+          "duration": "4:34"
+        },
+        {
+          "title": "Fuck (feat. Josh Franceschi)",
+          "duration": "4:55"
+        },
+        {
+          "title": "Don't Go (feat. Lights)",
+          "duration": "4:58"
+        },
+        {
+          "title": "Home Sweet Hole",
+          "duration": "4:37"
+        },
+        {
+          "title": "Alligator Blood",
+          "duration": "4:31"
+        },
+        {
+          "title": "Visions",
+          "duration": "4:08"
+        },
+        {
+          "title": "Blacklist",
+          "duration": "4:00"
+        },
+        {
+          "title": "Memorial",
+          "duration": "3:09"
+        },
+        {
+          "title": "Blessed with a Curse",
+          "duration": "5:08"
+        },
+        {
+          "title": "The Fox and the Wolf (feat. Josh Scogin)",
+          "duration": "1:42"
+        },
+        {
+          "title": "It Never Ends - Borgore Remix",
+          "duration": "4:23"
+        }
+      ]
+    },
+    {
+      "title": "Suicide Season",
+      "artist": "Bring Me The Horizon",
+      "genre": "Metalcore",
+      "releasedate": {
+        "year": 2008,
+        "month": 9,
+        "day": 29
+      },
+      "image": "suicideseason.png",
+      "spotify": "https://open.spotify.com/embed/album/5gLPHzNPjPb2wfZRx7pwj6?utm_source=generator",
+      "tracks": [
+        {
+          "title": "The Comedown",
+          "duration": "4:09"
+        },
+        {
+          "title": "Chelsea Smile",
+          "duration": "5:02"
+        },
+        {
+          "title": "It Was Written in Blood",
+          "duration": "4:02"
+        },
+        {
+          "title": "Death Breath",
+          "duration": "4:20"
+        },
+        {
+          "title": "Football Season is Over (feat. JJ Peters)",
+          "duration": "1:55"
+        },
+        {
+          "title": "Sleep with One Eye Open",
+          "duration": "4:16"
+        },
+        {
+          "title": "Diamonds Aren't Forever",
+          "duration": "3:48"
+        },
+        {
+          "title": "The Sadness Will Never End (feat. Sam Carter)",
+          "duration": "5:22"
+        },
+        {
+          "title": "No Need for Introductions, I've Read About Girls Like You on the Backs of Toilet Doors",
+          "duration": "0:59"
+        },
+        {
+          "title": "Suicide Season",
+          "duration": "8:17"
+        }
+      ]
+    },
+    {
+      "title": "Count Your Blessings",
+      "artist": "Bring Me The Horizon",
+      "genre": "Deathcore",
+      "releasedate": {
+        "year": 2006,
+        "month": 10,
+        "day": 30
+      },
+      "image": "countyourblessings.png",
+      "spotify": "https://open.spotify.com/embed/album/3w9BRbUQJTaGxu7a1DEB7S?utm_source=generator",
+      "tracks": [
+        {
+          "title": "Pray For Plagues",
+          "duration": "4:21"
+        },
+        {
+          "title": "Tell Slater Not To Wash His Dick",
+          "duration": "3:30"
+        },
+        {
+          "title": "For Stevie Wonder's Eyes Only (Braille)",
+          "duration": "4:29"
+        },
+        {
+          "title": "A Lot Like Vegas",
+          "duration": "2:09"
+        },
+        {
+          "title": "Black & Blue",
+          "duration": "4:33"
+        },
+        {
+          "title": "Slow Dance",
+          "duration": "1:16"
+        },
+        {
+          "title": "Liquer & Love Lost",
+          "duration": "2:39"
+        },
+        {
+          "title": "(I Used To Make Out With) Medusa",
+          "duration": "5:38"
+        },
+        {
+          "title": "Fifteen Fathoms, Counting",
+          "duration": "1:56"
+        },
+        {
+          "title": "Off the Heezay",
+          "duration": "5:38"
+        }
+      ]
     }
   ]
 }
